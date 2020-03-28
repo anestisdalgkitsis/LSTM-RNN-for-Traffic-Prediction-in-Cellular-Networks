@@ -1,7 +1,4 @@
-# LSTM-RNN-for-Traffic-Prediction-in-Cellular-Networks
-Long Short-Term Memory Recurrent Neural Network for Traffic Prediction in Cellular Networks.
-
-## Description
+# Long Short-Term Memory Recurrent Neural Network for Traffic Prediction in Cellular Networks.
 
 We designed and implemented a Neural Network that can identify recurrent patterns in various metrics used in cellular network traffic forecasting and conduct sufficient conclusions about the traffic in the future. 
 Thanks to custom architecture and memory, this Neural Network can handle prediction faster and even more accurate in real life scenarios.

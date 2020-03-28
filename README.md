@@ -12,7 +12,7 @@ Multiple predictions were made in the same data-set, in order to provide a robus
 
 ## How to use
 
-Locate the project folder in your terminal and run the following command:
+Download, locate the project folder in your terminal and run the following command:
 ```
 python ntpa.py -i ltedata.csv <<arguments>>
 ```
@@ -27,9 +27,45 @@ Where `<<arguments>>` are listed below. If no arguments given the application wi
 - -m Measurement (can be THROUGHPUT, DOWNLOADTRAFFIC or ACTIVITYTIME)
 - -n Normalization (can be FALSE or EXCESSAVERAGE).
 
+### Dataset
+
+Dataset must be a `.csv` file with the following structure:
+
+```
+DAYSAMPLED;DL_TRAFFIC_BITS;ACTIVITY_TIME_MSEC;CELL_THROUGHPUT_MBPS;Cell ID
+01/01/2017;7448749488     ;550004            ;4      ,65          ;914753
+...
+```
+
+A dummy file `ltedata.csv` is included in the project for your convenience.
+Cell throughput branch contains both upload and download throughputs.
+
+> Sensitive data are removed. This file does not contain real data. Please replace with your own data, but keep the initial structure. 
+
 ## Disclaimer about the project
 
 - This project is not maintained any more.
 - Dataset is not provided for privacy reasons. Instead a dummy dataset can be found at ltedata.csv.
 - Not all parts of the code are included in this repository for privacy reasons.
 - Keep in mind that this is thesis project.
+
+### Cite this work 
+
+More information in ResearchGate website:
+DOI: 10.1145/3291533.3291540
+https://www.researchgate.net/publication/330226800_Traffic_forecasting_in_cellular_networks_using_the_LSTM_RNN
+
+Bibtex:
+```
+@inproceedings{inproceedings,
+author = {Dalgkitsis, Anestis and Louta, Malamati and Karetsos, George},
+year = {2018},
+month = {11},
+pages = {28-33},
+title = {Traffic forecasting in cellular networks using the LSTM RNN},
+isbn = {978-1-4503-6610-6},
+doi = {10.1145/3291533.3291540}
+}
+```
+
+> Do you plan to extend or contribute to our work? If yes, it would be great to mention us in your work. Please keep us informed.

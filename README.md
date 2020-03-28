@@ -40,7 +40,7 @@ DAYSAMPLED;DL_TRAFFIC_BITS;ACTIVITY_TIME_MSEC;CELL_THROUGHPUT_MBPS;Cell ID
 A dummy file `ltedata.csv` is included in the project for your convenience.
 Cell throughput branch contains both upload and download throughputs.
 
-> Sensitive data are removed. This file does not contain real data. Please replace with your own data, but keep the initial structure. 
+> Sensitive data are removed. This file does not contain real data. Please replace with your own, but keep the initial structure. 
 
 ## Disclaimer about the project
 
@@ -50,6 +50,8 @@ Cell throughput branch contains both upload and download throughputs.
 - Keep in mind that this is thesis project.
 
 ### Cite this work 
+
+> Do you plan to extend or contribute to our work? If yes, it would be great to mention us in your work. Please keep us informed.
 
 More information in ResearchGate website:
 DOI: 10.1145/3291533.3291540
@@ -67,5 +69,3 @@ isbn = {978-1-4503-6610-6},
 doi = {10.1145/3291533.3291540}
 }
 ```
-
-> Do you plan to extend or contribute to our work? If yes, it would be great to mention us in your work. Please keep us informed.

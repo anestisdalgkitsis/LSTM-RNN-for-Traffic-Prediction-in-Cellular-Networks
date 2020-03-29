@@ -25,7 +25,6 @@ Where `<<arguments>>` are listed below. If no arguments given the application wi
 - -c Cell ID (e.g. 914753)
 - -a Algorithm (can be ALL, LSTM, SLSTM, RBF or ARIMA).
 - -m Measurement (can be THROUGHPUT, DOWNLOADTRAFFIC or ACTIVITYTIME)
-- -n Normalization (can be FALSE or EXCESSAVERAGE).
 
 ### Dataset
 
@@ -38,16 +37,15 @@ DAYSAMPLED;DL_TRAFFIC_BITS;ACTIVITY_TIME_MSEC;CELL_THROUGHPUT_MBPS;Cell ID
 ```
 
 - A dummy file `ltedata.csv` is included in the project for your convenience.
-- Cell throughput branch contains both upload and download throughputs.
+- Cell throughput branch contains both `Upload` and `Download` throughputs.
 
 > Sensitive data are removed. This file does not contain real data. Please replace with your own, but keep the initial structure. 
 
 ## Disclaimer about the project
 
-- This project is not maintained any more.
-- Dataset is not provided for privacy reasons. Instead a dummy dataset can be found at ltedata.csv.
-- Not all parts of the code are included in this repository for privacy reasons.
-- Keep in mind that this is thesis project.
+- This project is not actively maintained any more.
+- Dataset can not be provided for privacy reasons. Instead a dummy dataset can be found at `ltedata.csv`.
+- Not all parts of the code are included in this repository.
 
 ### Cite this work 
 

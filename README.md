@@ -1,4 +1,4 @@
-# Long Short-Term Memory Recurrent Neural Network for Traffic Prediction in Cellular Networks.
+# Long Short-Term Memory Recurrent Neural Network for Traffic Prediction in Cellular Networks
 
 We designed and implemented a Neural Network that can identify recurrent patterns in various metrics used in cellular network traffic forecasting and conduct sufficient conclusions about the traffic in the future. 
 Thanks to custom architecture and memory, this Neural Network can handle prediction faster and even more accurate in real life scenarios.
@@ -7,8 +7,8 @@ Multiple predictions were made in the same data-set, in order to provide a robus
 
 ## Documents
 
-- Paper:  http://users.uowm.gr/louta/CONFERENCES/C55.pdf
-- Master Thesis: https://dspace.uowm.gr/xmlui/bitstream/handle/123456789/1529/Anestis_Dalgkitsis_Thesis.pdf
+- Paper: <http://users.uowm.gr/louta/CONFERENCES/C55.pdf>
+- Master Thesis: <https://dspace.uowm.gr/xmlui/bitstream/handle/123456789/1529/Anestis_Dalgkitsis_Thesis.pdf>
 
 ## How to use
 
@@ -20,11 +20,11 @@ Where `<<arguments>>` are listed below. If no arguments given the application wi
 
 ### Arguments
 
-- -i Inputfile (e.g. ltedata.csv).
-- -f Forecast type (can be EVALUATION, FORECAST or NEXTDAY).
-- -c Cell ID (e.g. 914753)
-- -a Algorithm (can be ALL, LSTM, SLSTM, RBF or ARIMA).
-- -m Measurement (can be THROUGHPUT, DOWNLOADTRAFFIC or ACTIVITYTIME)
+- "-i" Inputfile (e.g. ltedata.csv).
+- "-f" Forecast type (can be EVALUATION, FORECAST or NEXTDAY).
+- "-c" Cell ID (e.g. 914753)
+- "-a" Algorithm (can be ALL, LSTM, SLSTM, RBF or ARIMA).
+- "-m" Measurement (can be THROUGHPUT, DOWNLOADTRAFFIC or ACTIVITYTIME)
 
 ### Dataset
 
@@ -66,4 +66,4 @@ doi = {10.1145/3291533.3291540}
 
 More information in ResearchGate website:
 DOI: 10.1145/3291533.3291540
-https://www.researchgate.net/publication/330226800_Traffic_forecasting_in_cellular_networks_using_the_LSTM_RNN
+<https://www.researchgate.net/publication/330226800_Traffic_forecasting_in_cellular_networks_using_the_LSTM_RNN>

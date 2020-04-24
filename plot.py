@@ -10,7 +10,6 @@
 
 # Depentencies
 
-import csv
 import datetime as datetime
 from dateutil.parser import parse
 

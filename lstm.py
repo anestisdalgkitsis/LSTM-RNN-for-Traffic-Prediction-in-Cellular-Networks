@@ -336,7 +336,7 @@ def slstm(data, measurement, split, blocksNumber = 4, batch = 1, epochs = 1500, 
 	predictions = list()
 	for i in range(len(testscaled)):
 		# One-step forecast
-		X, y = testscaled[i, 0:-1], testscaled[i, -1]
+		X = testscaled[i, 0:-1]
 		yhat = forecast(model, 1, X)
 		# Invert scaling
 		yhat = invertscale(scaler, X, yhat)
